@@ -31,18 +31,18 @@ class Persona:
         self.pais = pais
 
     def imprimirNombre(self):
-        print("Nombre: ", self.nombre)
+        print("Nombre:", self.nombre)
 
     def imprimirEdad(self):
-        print("Edad: ", self.edad)
+        print("Edad:", self.edad)
 
     def imprimirPais(self):
-        print("Pais: ", self.pais)
+        print("Pais:", self.pais)
 
     def imprimirDatos(self):
-        print("Nombre: ", self.nombre)
-        print("Edad: ", self.edad)
-        print("Pais: ", self.pais)
+        print("Nombre:", self.nombre)
+        print("Edad:", self.edad)
+        print("Pais:", self.pais)
 
 persona1 = Persona("Juan", 25, "Mexico")
 persona1.imprimirNombre()
